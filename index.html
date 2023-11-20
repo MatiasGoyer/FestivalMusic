@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Metal & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#entradas">Entradas</a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Metal & EDM Festival</h2>
+                <p>Mayo 2023, Buenos Aires, Argentina.</p>
+            </div>
+        </div>
+        <video autoplay muted loop><!--PARA QUE EL VIDEO ARRANQUE Y ESTE EN LOOP-->
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+    
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+
+                <img src="build/img/imagen_vocalista.jpg" alt="imagen vocalista" loading="lazy">
+
+            </picture>
+        </div>
+
+        <div class="contenido-festival">
+            <h2>Metal & EDM Festival</h2>
+            <p class="fecha">28 y 29 de Mayo 2023.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet enim iure quos, mollitia, necessitatibus, soluta commodi praesentium officia deserunt fuga illum explicabo doloribus doloremque velit ad nobis autem consequatur atque?</p>
+        </div>
+    </section>
+   
+    <section id="lineup" class="lineup">
+        <h3>Line up</h3>
+
+        <p class="dia">Viernes 28</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Metal</p>
+
+                <ul class="calendario">
+                    <li>
+                        22:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Ghost</span>
+                    </li>
+                    <li>
+                        18:30 | <span>Avenged Sevenfold</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Sepultura</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Horcas</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Against</span>
+                    </li>
+                    
+                </ul>
+            </div><!--.escenario-->
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                  
+                <ul class="calendario">
+                    <li>
+                        22:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        18:30 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Dash Berlin</span>
+                    </li>
+                    
+                    <li>
+                        16:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Audien</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+        </div><!--.escenario-contenedor-->
+
+        <p class="dia">Sabado 29</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Metal</p>
+
+                <ul class="calendario">
+                    <li>
+                        22:00 | <span>Iron Maiden</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Pantera</span>
+                    </li>
+                    <li>
+                        18:30 | <span>Helloween</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                    
+                    <li>
+                        16:00 | <span>Malón</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Arde la Sangre</span>
+                    </li>
+                    
+                </ul>
+            </div><!--.escenario-->
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+
+                <ul class="calendario">
+                    <li>
+                        22:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        18:30 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Eric Prdyz</span>
+                    </li>
+                    
+                    <li>
+                        16:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+        </div><!--.escenario-contenedor-->
+
+    </section><!--.lineup-->
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="entradas" class="boletos bg-oscuro">
+        <h3>Entradas</h3>
+
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase Básico</p>
+                <header class="pase-header">
+                    <p>Incluye</p>              
+                </header>
+
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios.</li>
+                        <li>Pase disponible a un solo día.</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$25000</p>
+                </footer>
+            </div>
+
+            <div class="premiun pase">
+                <p class="nombre-pase">Pase Premiun</p>
+                <header class="pase-header">
+                    <p>Incluye</p>              
+                </header>
+
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios.</li>
+                        <li>Pase disponible para ambos días.</li>
+                        <li>Merchandising oficial.</li>
+                        <li>Plateas preferenciales.</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$45000</p>
+                </footer>
+
+            </div>
+        </div>
+    
+          
+    
+    </section>
+
+    <footer class="site-footer">
+        <p>Todos los derechos reservados.Matias Goyer Developer.</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>

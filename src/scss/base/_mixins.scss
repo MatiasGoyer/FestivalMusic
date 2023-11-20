@@ -1,0 +1,31 @@
+@use 'variables' as v;
+
+@mixin telefono{
+    @media (min-width: 480px){
+        @content;//para poder agregarle el contenido del mq en el archivo sass que queremos
+    }
+}
+@mixin tablet{
+    @media (min-width: 768px){
+        @content;//para poder agregarle el contenido del mq en el archivo sass que queremos
+    }
+}
+
+@mixin escritorio{
+    @media (min-width: 992px){
+        @content;//para poder agregarle el contenido del mq en el archivo sass que queremos
+    }
+}
+
+@mixin grid($columnas,$espacio) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espacio;
+}
+
+@mixin resetear-lista{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
